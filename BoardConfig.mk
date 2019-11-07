@@ -46,7 +46,7 @@ BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --second_offset 0x00f00000 --tags_offset 0x00000100
 
 TARGET_KERNEL_CONFIG := PLE_defconfig
-TARGET_KERNEL_SOURCE := kernel/nokia/PLE
+TARGET_KERNEL_SOURCE := kernel/nokia/msm8937
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
