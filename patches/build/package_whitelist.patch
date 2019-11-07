@@ -1,0 +1,13 @@
+diff --git a/make/core/tasks/check_boot_jars/package_whitelist.txt b/make/core/tasks/check_boot_jars/package_whitelist.txt
+index 15b9990..6d6af45 100644
+--- a/make/core/tasks/check_boot_jars/package_whitelist.txt
++++ b/make/core/tasks/check_boot_jars/package_whitelist.txt
+@@ -237,3 +237,8 @@ org\.apache\.xalan\.xslt
+ # Packages in the google namespace across all bootclasspath jars.
+ com\.google\.android\..*
+ com\.google\.vr\.platform.*
++
++###################################################
++# CAF
++org\.codeaurora\.ims.*
++org\.codeaurora\.internal.*
