@@ -1,5 +1,8 @@
 # Common device configuration for Nokia 6 (2017)
 
+## Local Manifest for building
+https://gist.github.com/leszczu8023/273c87aa99497a9e01b307b07ac7af92
+
 ## Spec Sheet
 
 | Feature                 | Specification                     |
